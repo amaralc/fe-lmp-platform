@@ -1,11 +1,18 @@
+/* --------------------------------- IMPORTS ---------------------------------*/
 import React from 'react';
+import { Router } from 'react-router-dom';
 
+import Routes from './routes';
+import History from './services/history';
+
+/* --------------------------------- CONTENT ---------------------------------*/
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+    <Router history={history}>
+      <Routes />
+    </Router>
   );
 }
 
+/* --------------------------------- EXPORTS ---------------------------------*/
 export default App;
