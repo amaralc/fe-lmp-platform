@@ -5,5 +5,5 @@ import React from 'react';
 
 /* --------------------------------- EXPORTS ---------------------------------*/
 export default function Profile() {
-  return <div />;
+  return <h1>Profile</h1>;
 }
