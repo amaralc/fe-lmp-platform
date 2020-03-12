@@ -1,0 +1,8 @@
+AuthName "Administração da Web (Area RESTRITA)"
+AuthType Basic
+AuthUserFile /usr/local/apache/htdocs/exmembros/arquivos/.htpasswd
+
+require user cpd
+#require user hlj
+#require user marco
+#require user moecke

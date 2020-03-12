@@ -1,0 +1,5 @@
+AuthName "Administração da Web (Area RESTRITA)"
+AuthType Basic
+AuthUserFile /usr/local/apache/htdocs/notas/arquivos/.htpasswd
+
+require user jscapcasocjascop 
