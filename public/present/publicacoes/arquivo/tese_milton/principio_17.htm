@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="pt-br">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>2</title>
+<style>
+<!--
+-->
+</style>
+<link href="estilo-texto.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#FFFFFF">
+<p><b> 2.17 – Sensores de medição</b></p>
+<p style="text-align: justify; "> O
+  baixo custo de aquisição de componentes eletrônicos, associado ao aumento na
+  capacidade de processamento, levou a adoção de soluções eletrônicas onde antes
+  somente se adotavam soluções mecânicas de alto custo para controlar e monitorar
+  máquinas e sistemas. </p>
+<p style="text-align: justify;  "> A eletrônica empregada nas máquinas-ferramenta
+  atuais permite que essas sejam melhores, tenham melhor desempenho, sejam mais
+  flexíveis e amigáveis, tenham maior confiabilidade e custo acessível. Isso
+  se deve aos avanços da eletrônica de controle e aos sensores a ela associados.</p>
+<p style="text-align: justify;  "> Atualmente, existe uma ampla e variada gama
+  de sensores que permitem a medição da maior parte das grandezas físicas conhecidas.
+  Em máquinas-ferramenta, dois tipos de sensores são utilizados (Stoeterau, 1999):</p>
+<ul>
+  <li> os
+    passivos, tais como os sensores de fim de curso; e</li>
+  <li> os
+      ativos, utilizados para monitorar o comportamento das mais diversas variáveis
+      durante o processo.</li>
+</ul>
+<p style="text-align: justify;    ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>2.17.1
+    - Sensores Passivos</b></p>
+<p style="text-align: justify; ">&nbsp;&nbsp;&nbsp;&nbsp; Os
+  sensores de fim de curso têm por função evitar que, ante eventuais falhas do
+  sistema de posição dos carros, os mesmos venham a provocar danos por choque
+  na estrutura. Sua instalação geralmente é realizada aos pares, de forma seqüencial.
+  O primeiro sensor determina o fim de curso, atuando sobre o controle no sentido
+  de parar o movimento, sem contudo perder as informações de referência e de
+  programação da máquina. O segundo sensor atua da mesma forma, porém sua atuação
+  sobre o controle é tal, que interrompe toda e qualquer ação de movimento da
+  máquina, desligando todos os sistemas e perdendo as informações de referência
+  e programação.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>2.17.2 - Sensores Ativos</b></p>
+<p style="text-align: justify; ">&nbsp;&nbsp;&nbsp;&nbsp; Consideram-se
+  sensores ativos aqueles que monitoram e realimentam a malha de controle, interferindo
+  sobre os resultados finais do trabalho. Nestes, podemos incluir os sensores
+  de pressão, temperatura, deformação, posição, corrente, tensão, velocidade,
+  aceleração, torque entre outros. </p>
+<p style="text-align: justify;  "> Entre os diversos tipos de sensores ativos,
+  os de maior importância em máquinas-ferramenta são:</p>
+<p style="text-align: justify;     "> os
+  de posição, os quais definem diretamente a resolução de posicionamento da máquina;</p>
+<p style="text-align: justify;     "> os
+  de velocidade, que são associados diretamente aos acionamentos e são utilizados
+  para estabilizar a malha de controle.</p>
+<p style="text-align: justify; ">&nbsp;&nbsp;&nbsp;&nbsp; Apesar
+  de existirem diversos sensores de velocidade, tais como os comumente conhecidos <i>resolvers</i>,
+  a realimentação de velocidade ou aceleração pode ser feita através de derivações
+  ou integrações sucessivas do deslocamento no tempo. Normalmente para esse fim
+  são utilizados sensores específicos para velocidade (tacogeradores) e aceleração
+  (acelerômetros), quando se deseja realimentar a malha de controle com estas
+  variáveis.</p>
+<p style="text-align: justify;  "> Medir, segundo a norma ISO 1000, significa
+  quantificar algo com relação a um padrão. Em máquinas-ferramenta, a comparação
+  com o padrão do metro é traçável. Os deslocamentos lineares e angulares podem
+ser medidos com alta resolução. </p>
+<p style="text-align: justify;  "> As formas de medição podem ser classificadas
+  de acordo com princípios físicos, sendo as mais comuns:</p>
+<ul>
+  <li> mecânica;</li>
+  <li> fotoelétrica;</li>
+  <li> indutiva;</li>
+  <li> magnética;</li>
+  <li> interferencial.</li>
+</ul>
+<p style="text-align: justify;  "> Em máquinas-ferramenta controladas numericamente
+  há a necessidade de que os sistemas de medição sejam capazes de realimentar
+  a posição ao longo de um deslocamento, o que descarta o uso de sistemas mecânicos
+  tais como parafusos, nônios, parafusos diferenciais relógios comparadores e
+  afins. Ocasionalmente, os sistemas mecânicos de medição são empregados como
+  elementos auxiliares para realização de pequenas correções e ajustes em sistemas
+  e dispositivos mecânicos de precisão, tais como um porta-ferramentas.</p>
+<p style="text-align: justify;  "> Em aplicações de ultraprecisão, a escolha
+  do sistema deve seguir alguns requisitos básicos, tais como:</p>
+<ul>
+  <li> resolução;</li>
+  <li> faixa
+    de operação;</li>
+  <li> repetibilidade;</li>
+  <li> velocidade
+    de medição;</li>
+  <li> estabilidade
+    durante a operação;</li>
+  <li> facilidade
+    de montagem e ajustagem;</li>
+  <li> custo.</li>
+</ul>
+<p style="text-align: justify;  "> O comum em máquinas-ferramenta NC é a utilização
+  de somente um sistema de medição de posição para realimentação, podendo este
+  ser feito por sensores diretos, em que a função transferência entre posição
+  lida e posição real é direta (ex.: movimento linear/encoder linear), ou indiretos,
+  em que há a necessidade de transformar o valor lido para valor real (ex.: movimento
+  linear/encoder angular). </p>
+<p style="text-align: justify;  ">Atualmente, em aplicações de alta e ultraprecisão,
+  a realimentação de posição de forma única está sendo substituída por sistemas
+  de dupla realimentação, ou realimentação em dois estágios. A realimentação
+  em dois estágios tem se mostrado mais vantajosa, tanto do ponto de vista da
+  confiabilidade quanto da precisão final possível de ser obtida. A dupla realimentação
+  se divide em dois sistemas: um destinado ao posicionamento grosseiro (até 0,1
+  mm) e outro, ao posicionamento fino (&gt;0,1 mm).&nbsp; A adoção de dois sistemas
+  de realimentação pode ou não estar associada ao uso de dois sistemas de posicionamento
+  distintos em um único eixo, como por exemplo no uso de uma combinação de motor
+  de passo/fuso/encoder para macrodeslocamentos e sistema piezelétrico para microdeslocamentos.
+  A realimentação em dois estágios permite um melhor controle do processo em
+  alta e ultraprecisão, porém a um custo maior, devido a maior complexidade necessária
+  ao sistema de controle<i> (software e hardware)</i>.</p>
+<p style="text-align: justify;  "> <b> <a style="text-decoration: none" href="biblio_17.htm">BIBLIOGRAFIA
+      RELACIONADA COM ESTE TÓPICO</a></b></p>
+<p style="text-align: justify;  "> <u><b><a href="index.htm">VOLTAR</a></b></u></p>
+</body>
+</html>

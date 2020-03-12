@@ -1,0 +1,22 @@
+AuthName "Administração da Web (Area RESTRITA)"
+AuthType Basic
+AuthUserFile /usr/local/www/data/admin/.htpasswd
+ErrorDocument 401 /401_admin.php
+
+require user cristian
+require user sunada
+require user edgar 
+
+order deny,allow
+
+deny from all
+allow from 150.162.108.77
+allow from 150.162.108.4
+allow from 150.162.108.2
+allow from 150.162.108.1
+allow from 150.162.108.44
+allow from 150.162.108.19
+allow from 150.162.108.35
+allow from 150.162.108.100
+allow from 150.162.108.173
+allow from 150.162.108.47
