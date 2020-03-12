@@ -1,0 +1,150 @@
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #A97E01;
+	text-decoration: none;
+	font-style: normal;
+
+
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #A97E01;
+	text-decoration: none;
+	font-style: normal;
+
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #A97E01;
+	text-decoration: underline;
+	font-style: normal;
+
+
+}
+a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #A97E01;
+	text-decoration: none;
+	font-style: normal;
+}
+input.largerCheckbox
+{
+	width: 50px;
+	border: thin solid #0000CC;
+}
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #05376C;
+	text-indent: 30pt;
+	text-align: justify;
+
+
+}
+h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #05376C;
+}
+body {
+	background-image: url(logo_fundo.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #FFFFFF;
+
+	}
+li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #05376C;
+}
+.atualizacao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #05376C;
+}
+.contato {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #05376C;
+}
+.texto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #05376C;
+	text-indent: 0pt;
+
+}
+.tituloTabela {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #05376C;
+
+}
+.legendaFigura {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #05376C;
+	text-align: center;
+
+
+
+}
+.contatoesq {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #05376C;
+	background-position: 0px;
+}
+.titulogrande {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #05376C;
+}
+.caixatexto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #05376C;
+	border: thin solid #000099;
+	font-weight: bold;
+}
+.formulario {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #05376C;
+}
+.formularioSite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #05376C;
+	background-color: #C1C9FF;
+}
+.tabelaHorario {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #C4C4FF;
+}
+.tabelaHorario2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #FFD1B3;
+}

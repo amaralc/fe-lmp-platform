@@ -1,0 +1,14 @@
+ESTE PROGRAMA EM PHP FOI DESENVOLVIDO POR CRISTIAN THIAGO MOECKE
+EXCLUSIVAMENTE PARA O LABORATÓRIO DE MECÂNICA DE PRECISÃO DA UFSC
+VOCÊ PODERÁ UTILIZA-LO E MODIFICA-LO DESDE QUE O AUTOR SEJA COMUNICADO
+
+Autor:
+Cristian Thiago Moecke
+cristian@floripa.com.br
+http://cristian.floripa.com.br
+
+
+Características: 
+	Segurança: 	Administração com login via htaccess
+			Controle de Envio de dados por ip.
+

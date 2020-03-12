@@ -1,0 +1,78 @@
+GUIMARÃES, M. P., MARTIN, C. A., SCHROETER, R. B., STOETERAU, R. L., MOREIRA, R. P. 
+Metodologia para balanceamento de árvores de tornos de ultraprecisão. 
+In: 3. COBEF - Congresso Brasileiro de Engenharia de Fabricação, Joinville, 12-15/4/2005. Anais...
+ANDRADE, C. L. F., SCHROETER, R. B., GOMES, J. O. 
+Avaliação da influência do revestimento na furação do ferro fundido vermicular. 
+In: 3. COBEF - Congresso Brasileiro de Engenharia de Fabricação, Joinville, 12-15/4/2005. Anais...
+SCHROETER, R. B., MOCHIZUKI, S. S. 
+Previsão de forças e desgaste no fresamento frontal de ferro fundido cinzento com cerâmica não-óxida a partir de dados obtidos no torneamento. 
+In: 3. COBEF - Congresso Brasileiro de Engenharia de Fabricação, Joinville, 12-15/4/2005. Anais...
+SCHROETER, R. B., GOMES, J. O., KRATOCHVIL, R. 
+Fresamento em Altas Velocidades de Paredes Finas e Detalhes de Pequena Dimensão em Grafita Industrial. 
+In: 3. COBEF - Congresso Brasileiro de Engenharia de Fabricação, Joinville, 12-15/4/2005. Anais...
+WEINGAERTNER, W. L., SCHROETER, R. B., POLLI, M. L., GOMES, J. O., PAES, A. 
+Influência do comprimento em balanço da ferramenta sobre a estabilidade dinâmica do fresamento de topo reto a altas velocidades. 
+In: III COBEF - Congresso Brasileiro de Engenharia de Fabricação, Joinville, 12-15/4/2005. Anais...
+WEINGAERTNER, W. L., SCHROETER, R. B., POLLI, M. L., GOMES, J. O. 
+Avaliação da estabilidade dinâmica do fresamento de topo a altas velocidades através do sinal de áudio. 
+In: 3. COBEF - Congresso Brasileiro de Engenharia de Fabricação, Joinville, 12-15/4/2005. Anais...
+SCHROETER, R. B., CAMPOS, D. V. 
+Análise e simulação da deflexão da ferramenta em fresamento de topo. 
+In: 3. COBEF - Congresso Brasileiro de Engenharia de Fabricação, Joinville, 12-15/4/2005. Anais...
+SCHROETER, R. B., WEINGAERTNER, W. L., ALMEIDA, L. B. 
+Avaliação Comparativa entre Ensaios de Usinabilidade de Curta e Longa. 
+In: 3. COBEF - Congresso Brasileiro de Engenharia de Fabricação, Joinville, 12-15/4/2005. Anais... (pöster)
+DINIZ, A. E., SILVA, M. B., MOMBRU, R., SCHROETER, R. B. 
+Fluidos de corte em usinagem (capítulo 3, p. 47-64). 
+In: Tecnologias Avançadas de Manufatura - Coleção Fábrica do Milênio - volume 1 (demais autores: OLIVEIRA, J. F. G., COELHO, R. F. et al).  Capítulo de livro. Editora Novos Talentos. ISBN: 05-2424, CDD-670. 2005. 169 p.
+BASTOS, C. M., SCHROETER, R. B. 
+Modelagem e Simulação do Tornobrochamento. 
+Máquinas e Metais, São Paulo, n. 470, Março/2005. p. 156-169.
+CRICHIGNO FILHO, J. M., TEIXEIRA, C. R., SCHROETER, R. B. 
+Prediction of the cutting tool edge position and orientation accuracy through error synthesis of spindle elements. 
+Proceedings of the I MECH E Part B Journal of Engineering Manufacture - ISSN 09544054. Volume 219, Número 6, Junho 2005. p. 477-482. DOI: 10.1243 /095440505X32319. 
+WEINGAERTNER, W. L., SCHROETER, R. B., GOMES, J. O., POLLI, M. L. 
+Influência das Parâmetros de Corte sobre a Estabilidade Dinâmica do Fresamento de Topo Reto. 
+Máquinas e Metais, São Paulo, n. 472, Maio/2005. p. 100-121.
+GUIMARÃES, M. P., MARTIN, C. A., SCHROETER, R. B., STOETERAU, R. L., MOREIRA, R. P. 
+Metodologia para Balanceamento de Árvores de Tornos de Ultraprecisão. 
+Máquinas e Metais, São Paulo, n. 476, Setembro/2005. p. 130-147.
+BORILLE, A. V., SCHROETER, R. B., STOETERAU, R. L. 
+Analysis of GG25 Gray Iron Reaming with Cemented Carbide Tools. 
+In: XVIII COBEM - Congresso Brasileiro de Engenharia Mecânica, Ouro Preto, 7-11/11/2005. Anais...
+CASTILLO, W. J. G., SCHROETER, R. B., STOETERAU, R. L. 
+Deep Drilling in GG25 Gray Cast Iron Using Tungsten Carbide Drills with Straight Flutes. 
+In: XVIII COBEM - Congresso Brasileiro de Engenharia Mecânica, Ouro Preto, 7-11/11/2005. Anais...
+WEINGAERTNER, W. L., SCHROETER, R. B., POLLI, M. L., GOMES, J. O. 
+Analysys of the Dynamic Stability of High Speed Finishing End Miling and Ball-End Milling. 
+In: XVIII COBEM - Congresso Brasileiro de Engenharia Mecânica, Ouro Preto, 7-11/11/2005. Anais...
+MANGONI, C., SCHROETER, R. B., MENDONÇA, P. T. R. 
+End Milling Forces Behavior Study For Finite Elements Dinamic Analisys. 
+In: XVIII COBEM - Congresso Brasileiro de Engenharia Mecânica, Ouro Preto, 7-11/11/2005. Anais...
+POLLI, M. L., WEINGAERTNER, W. L., SCHROETER, R. B., ZEILMANN, R. P. 
+Influência das Vibrações sobre a Qualidade Superficial no Fresamento de Topo Esférico. 
+Máquinas e Metais, São Paulo, n. 479, Dezembro/2005. p. 62-69.
+WEINGAERTNER, W. L., SCHROETER, R. B., POLLI, M. L., GOMES, J. O. 
+Evaluation of High-Speed End-Milling Dynamic Stability Through Audio Signal Measurements. 
+Submetido e aprovado para publicação no Journal of Materials Processing Technology. ISSN: 0924-0136. COBEF2005 - Edição Especial.
+SCHROETER, R. B., KRATOCHVIL, R., GOMES, J. O. 
+High-Speed Finishing Milling of Industrial Graphite Electrodes. 
+Submetido e aprovado para publicação no Journal of Materials Processing Technology. ISSN: 0924-0136. COBEF2005 - Edição Especial.
+WEINGAERTNER, W. L. ; SCHROETER, Rolf Bertrand ; POLLI, Milton Luiz. 
+Avaliação da Estabilidade Dinâmica do Processo de Fresamanto de Topo Reto a Altas Velocidades. 
+Ciência & Engenharia, Uberlândia, v. 2003, p. 15-20, 2005.
+WEINGAERTNER, W. L. ; LUCAS, Eliene Oliveira . 
+Um dispositivo quick-stop com acionamento mecânico. 
+Revista Máquinas e Metais, v. XLI, n. 468, p. 118-129, 2005.  
+WEINGAERTNER, W. L. ; SCHROETER, Rolf Bertrand ; POLLI, Milton Luis . 
+Influência dos parâmetros de corte sobre a estabilidade dinâmica do fresamento de topo reto. 
+Revista Máquinas e Metais, São Paulo, v. XLI, n. 472, p. 100-121, 2005.
+PEREIRA, Milton; FORCELLINI, Fernando Antônio;.
+Design Methodology for Reconfigurable Precision Systems Applied to an Ultraprecision Lathe.
+18th COBEM International Congress of Mechanical Engineering, Ouro Preto – MG, 6-11/11/2005.
+PEREIRA, Milton; GUIMARÃES, Marco Paulo; SUNADA, Marcelo; MOREIRA, Rodrigo Pavão; WEINGAERTNER, Walter Lindolfo. 
+Ultraprecision Lathe Quality Improvement Through Effect Analysis.
+
+PEREIRA, Milton; SUNADA, Marcelo; MOREIRA, Rodrigo Pavão; DALPONT, Alex; GONÇALVES, Armando Albertazzi Júnior; WEINGAERTNER, Walter Lindolfo.
+Reconfigurable Ultraprecision Lathe Quality Evaluation Through Comparison Between its Machined Parts Against a Reference.
+18th COBEM International Congress of Mechanical Engineering, Ouro Preto – MG, 6-11/11/2005.

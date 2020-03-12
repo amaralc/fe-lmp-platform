@@ -1,0 +1,74 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   
+   <meta name="GENERATOR" content="Mozilla/4.74 [en] (WinNT; U) [Netscape]">
+   <title>LMP - SISMEC</title>
+   <link href="../../estilo-texto.css" rel="stylesheet" type="text/css">
+</head>
+<body nosave>
+
+<div align=right>
+  <p align="left"><a href="../../home.html" target="mainFrame">LMP</a>&gt;<a href="../lp_principal.html">Research Guidelines</a>&gt;<a href="sismec.html">SISMEC</a>&gt;T&eacute;cnicas de Controle
+   Aplicadas ao Posicionamento de Ultraprecis&atilde;o</p>
+  <h4 align="center">T&Eacute;CNICAS DE CONTROLE APLICADAS <br>
+    AO POSICIONAMENTO DE ULTRAPRECIS&Atilde;O    <br>
+  </h4>
+</div>
+
+<center><table CELLSPACING=0 CELLPADDING=0 COLS=1 WIDTH="90%" >
+<tr>
+<td><h4>OBJECTIVES</h4>
+  <p>      O objetivo deste trabalho &eacute; a implementa&ccedil;&atilde;o de t&eacute;cnicas
+      de controle no posicionamento de ultraprecis&atilde;o do prot&oacute;tipo de
+      uma m&aacute;quina ferramenta numericamente controlada por computador. </p>
+  <h4>PROCEDURES </h4>
+  <p>Uma placa DSP - CNC alocada em um microcomputador faz a monitora&ccedil;&atilde;o
+    e o controle da m&aacute;quina ferramenta. Esta placa recebe o valor medido
+    da posi&ccedil;&atilde;o, e atrav&eacute;s de um algoritmo de controle tenta,
+    continuamente, fazer com que a posi&ccedil;&atilde;o real seja igual a posi&ccedil;&atilde;o
+    comandada. Esta placa tem capacidade de controlar at&eacute; 8 eixos seq&uuml;encialmente,
+    processar programas pe&ccedil;a desenvolvidos em c&oacute;digo G e gerenciar
+    informa&ccedil;&otilde;es coletadas na planta. <br>
+    Duas t&eacute;cnicas de controle est&atilde;o sendo testadas uma baseada
+    em controlador PI-D+Feedforward e outra no escalonamento de ganhos. <br>
+    <strong>PI-D+ FEEDFORWARD</strong> onde a velocidade e acelera&ccedil;&atilde;o s&atilde;o
+    ajustadas baseadas no modelo matem&aacute;tico do sistema em malha aberta. <br>
+    Este modelo &eacute; obtido atrav&eacute;s do m&eacute;todo de identifica&ccedil;&atilde;o
+    dos m&iacute;nimos quadrados n&atilde;o recursivos, que utiliza dados de
+    ensaios realizados em malha aberta. </p>
+  <p></p>  <h4 align="center" class="legendaFigura"><img src="sismec_tecn01.gif" width="614" height="321"></h4>
+  <h4 align="left">ESCALONAMENTO DE GANHOS </h4>
+  <p align="left">      Esta t&eacute;cnica torna poss&iacute;vel alterar os par&acirc;metros do
+      controlador PI-D+feedforward de acordo com a velocidade que est&aacute; sendo
+      aplicada, e ent&atilde;o, manter o erro de seguimento em um valor m&iacute;nimo.</p>
+  <p align="center" class="legendaFigura"><img src="sismec_tecn02.gif" width="624" height="370"></p>
+  <h4 align="left">RESULTS </h4>
+  <p align="left">Os resultados mostram que as t&eacute;cnicas de controle podem
+    reduzir o erro de posicionamento e segmento para a escala submicrom&eacute;trica
+    e manter o comportamento est&aacute;vel quando de mudan&ccedil;as nas taxas
+    de avan&ccedil;o. </p>  <p align="center">&nbsp;</p>
+    <p align="center" class="legendaFigura"><a href="sismec_tecn03.gif"><img src="sismec_tecn03a.gif" width="400" height="243" border="0"></a><br>
+      Erro de seguimento com PI-D+feedforward    </p>
+    <p align="center" class="legendaFigura"><a href="sismec_tecn04.gif"><img src="sismec_tecn04a.gif" width="400" height="238" border="0"></a><br>
+      Erro de seguimento com escalonamento de ganhos <br>
+    </p>
+    <p align="center" class="legendaFigura"><img src="sismec_tecn05.jpg" width="378" height="226"></p></td>
+</tr>
+</table>
+  <h4 align="left">&nbsp;</h4>
+  <table BORDER=0 COLS=2 WIDTH="100%" >
+    <tr>
+      <td class="contato">Contact: <br>
+      SISMEC <br>
+       Rodrigo Lima Stoeterau Prof. Dr.
+      Eng. </td>
+      <td ALIGN=RIGHT VALIGN=BOTTOM class="atualizacao">Last update
+      <!-- #BeginDate format:Ge1 -->21.06.2006<!-- #EndDate -->
+      </td>
+    </tr>
+  </table>
+</center>
+</body>
+</html>

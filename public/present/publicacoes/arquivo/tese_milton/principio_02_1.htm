@@ -1,0 +1,695 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv="Content-Language" content="pt-br">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>2</title>
+<style>
+<!--
+-->
+</style>
+<link href="estilo-texto.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<p class="MsoBodyTextIndent2"><b>2.1 – O mapa de erros como uma 
+ferramenta determinística</b></p>
+<p class="MsoBodyTextIndent2">&nbsp;</p>
+<p class="MsoBodyTextIndent2">O mapa de erros é uma ferramenta determinística 
+importante e que fornece uma forma sistemática de se prever e/ou controlar os 
+erros repetitivos e não repetitivos de uma máquina. O mapa de erros é um modelo 
+da máquina no seu ambiente expresso em termos de relações de causa e efeito. 
+Deve envolver parcelas estatísticas como o movimento do solo ou mesmo parcelas 
+previsíveis de erro como as deflexões causadas pela gravidade ou o peso de 
+massas em movimento ou da própria estrutura. </p>
+<p class="MsoBodyTextIndent2">O mapa de erros ajuda na identificação de onde 
+focar as ações para melhorar a precisão de uma máquina já existente ou mesmo em 
+desenvolvimento. Ele fornece um formato útil para especificar os requisitos 
+necessários de precisão de um sistema para um balanço geral dos níveis de 
+dificuldade para a solução desses erros (riscos e custos). Geralmente as 
+informações necessárias para uma nova máquina devem ser estimadas através de 
+testes ou experiências adquiridas em máquinas já existentes, ou através de 
+modelos analíticos como a análise por elementos finitos.</p>
+<p class="MsoBodyTextIndent2">Os mapas de erro foram inicialmente utilizados na 
+determinação das tolerâncias de sistemas ópticos. Mais tarde, Slocum, (1991) 
+trabalhou sobre os aspectos geométricos desses mapas utilizando matrizes de 
+transformação homogênea. A base técnica dos mapas de erro se apóia em duas 
+premissas; que o erro total numa dada direção é a soma de todas as componentes 
+de erro individuais naquela direção; e que uma componente individual de erro 
+possui causas físicas que podem ser identificadas e quantificadas. </p>
+<p class="MsoBodyTextIndent2">A dificuldade prática dessa determinação cresce 
+porque geralmente não se consegue quantificar os erros num detalhamento 
+completo, especialmente na fase de projeto. Embora um erro possa variar 
+espacialmente e temporalmente, usualmente uma única estimativa de toda essa 
+variação vai ser utilizada e talvez com uma freqüência aproximada dessa 
+variação. Isso torna a regra de combinação mais especulativa do que se gostaria 
+que fosse.</p>
+<p class="MsoBodyTextIndent2">O primeiro desafio no desenvolvimento de um mapa 
+de erros é relacionar todas as fontes significativas de erro que podem afetar a 
+máquina. Neste caso a experiência é muito válida, mas a investigação aprofundada 
+dos subsistemas da máquina e do meio ambiente usualmente leva a uma lista mais 
+completa.&nbsp; O fato de se questionar e questionar a todos sobre o que 
+possivelmente poderia afetar a precisão de uma máquina cria uma estrutura 
+adequada de pensamento. O segundo desafio é a descoberta dos erros que essas 
+fontes de erro causam na máquina ou no processo. Implícita nesse processo está a 
+identificação do mecanismo de acoplamento entre as fontes de erro e o seu ponto 
+de relação. Em termos gerais, esse mecanismo de acoplamento é um sistema 
+dinâmico de variação tempo e espaço representado por uma função de transferência 
+adequada, mas é sempre simplificado para uma relação puramente estática e/ou 
+estacionária.</p>
+<p class="MsoBodyTextIndent2">Como exemplo, o movimento causado por vibrações 
+vindas pelo solo, que pode ser representado como um espectro de força, se 
+transfere através do sistema de isolamento de vibrações e das interfaces entre 
+os subsistemas de uma máquina de torneamento por diamante, deixando uma marca 
+dessas vibrações gravada na peça que está sendo torneada. Neste caso, a fonte de 
+erro é a vibração do solo e o mecanismo de acoplamento é formado pelo sistema de 
+isolamento, pelas interfaces entre os subsistemas da máquina e a própria 
+estrutura da máquina. A função de transferência poderia ser determinada 
+experimentalmente ou prevista através de uma análise por elementos finitos. 
+Adicionalmente, o mecanismo de acoplamento deve considerar a forma da peça que 
+está sendo usinada, já que o processo de usinagem possui efeito como fonte de 
+erro. Em processos onde os erros são minimizados, como no polimento, brunimento 
+e retificação, obviamente estes vão afetar o mecanismo de acoplamento de uma 
+forma positiva. Assim, é interessante categorizar erros da peça que está sendo 
+usinada de acordo com o processo de usinagem, já que as diferentes fontes de 
+erros levam a diferentes efeitos.</p>
+<p class="MsoBodyTextIndent2">Uma regra de combinação particular a ser empregada 
+não é óbvia nem foi rigorosamente determinada. Nos casos raros onde o 
+conhecimento de todas as componentes de erro é completo e sabe-se que os erros 
+não são independentes entre si, uma simples adição dos erros é apropriada, 
+levando a um erro total que pode variar com o tempo e com o espaço. Quando se 
+trabalha com magnitudes isso acontece desde que todos os erros ocorram ao mesmo 
+tempo, no mesmo lugar e com o mesmo sinal da direção que está sendo analisada. 
+Desta forma, a adição direta é muito conservativa. A soma quadrática desses 
+erros cujas fontes são independentes, leva a um valor dos erros esperados agindo 
+independentemente um com relação ao outro, o que seria o mesmo que dizer que 
+todos os erros são ortogonais. A experiência tem mostrado que essa regra é muito 
+otimista, mas apresenta resultados satisfatórios. Enfim, se os erros dependentes 
+entre si forem somados aritmeticamente e este resultado somado de forma 
+quadrática com os demais, chega-se a um valor final mais apropriado.</p>
+<p class="MsoBodyTextIndent2">Um outro ponto fundamental é que todas as 
+componentes de erro devem ser expressas na mesma forma antes de serem 
+combinadas. Por exemplo, é inapropriado combinar valores de rugosidade rms com 
+rugosidade P-V (pico a vale), sem antes converter um valor no outro. Isso requer 
+que seja assumida uma função densidade de probabilidade para cada componente de 
+erro. A densidade de probabilidade deve ser escolhida como uniforme, normal ou 
+com uma forma específica como a senoidal, dependendo da natureza do erro.</p>
+<p class="MsoBodyTextIndent2">Um exemplo prático mostra que um mapa de erros 
+pode ser bem simples de ser implementado. A figura 4 mostra um esquema da 
+máquina analisada, a máquina de torneamento de grandes componentes ópticos (LOTM 
+– <i>Large Optical Turning Machine</i>), desenvolvida junto ao <i>Lawrence 
+Livermore National Laboratory</i>. As dificuldades, como mencionado, estão no 
+desenvolvimento de uma lista completa das fontes de erros e na aplicação de 
+valores apropriados para as componentes desses erros. A tabela 1 mostra o mapa 
+de erros radiais desta máquina.</p>
+<p class="MsoBodyTextIndent2">&nbsp;</p>
+<p class="MsoBodyTextIndent2">&nbsp;</p>
+<p class="MsoBodyTextIndent2" align="center" style="text-align: center; text-indent: 0in">
+<img border="0" src="principio_02_1_arquivos/image001.jpg" width="637" height="480"></p>
+<p class="MsoBodyTextIndent2">Figura 4 - Máquina de torneamento de grandes 
+componentes ópticos (LOTM – Large Optical Turning Machine).</p>
+<p class="MsoBodyTextIndent2">&nbsp;</p>
+<p class="MsoBodyTextIndent2">&nbsp;</p>
+<p class="MsoBodyTextIndent2">Tabela 1 – Mapa de erros radiais da LOTM.</p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none">
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: 2.25pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" style="text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 2.25pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" style="text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="295" colspan="4" valign="top" style="width: 221.3pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 2.25pt solid windowtext; border-bottom: 2.25pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="center" style="text-align: center; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">Valores de magnitude pico-vale</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="center" style="text-align: center; text-indent: 0in; line-height: normal">
+    Fonte de erro</td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" style="text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="151" colspan="2" valign="top" style="width: 113.4pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="center" style="text-align: center; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">Direção X</span></td>
+    <td width="144" colspan="2" valign="top" style="width: 107.9pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="center" style="text-align: center; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">Direção Z</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 2.25pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 2.25pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 2.25pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">(nm)</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 2.25pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">(&#956;in)</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 2.25pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">(nm)</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 2.25pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">(&#956;in)</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <u><span style="font-size: 10.0pt">Interferômetros de posição</span></u></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Freqüência do laser central</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">3,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,12</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">5,5</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,22</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Índice de refração</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">3,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,12</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">5,5</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,22</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Fatores eletrônicos e ópticos</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">5,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,20</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">5,0</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,20</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <u><span style="font-size: 10.0pt">Interferômetros de alinhamento</span></u></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Diferenças nos caminhos ópticos</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">3,7</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,15</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">3,7</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,15</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Diferenças no plano óptico</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">15,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,59</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">15,0</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,59</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Diferença no índice</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">3,5</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,14</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">3,5</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,14</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Resolução metrológica</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">6,3</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,25</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <u><span style="font-size: 10.0pt">Sistema de controle</span></u></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Arranjo da ferramenta servo controlada</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">10,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,39</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">10,0</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,39</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <u><span style="font-size: 10.0pt">Controle de temperatura</span></u></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Circuito estrutural da metrologia</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">10,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,39</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">7,5</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,30</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Crescimento do cabeçote</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">40,0</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">1,57</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Camada limite térmica da peça</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">30,4</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">1,20</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">34,4</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">1,35</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <u><span style="font-size: 10.0pt">Alimentação de ar do cabeçote</span></u></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">7,5</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,30</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <u><span style="font-size: 10.0pt">Carga gravitacional</span></u></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">5,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,20</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <u><span style="font-size: 10.0pt">Pressão barométrica</span></u></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">4,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,16</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">5,0</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,20</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <u><span style="font-size: 10.0pt">Fatores externos</span></u></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Erro de forma da ferramenta de corte</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">13,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,51</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">13,0</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,51</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Distorções na fixação da peça</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">75,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">2,95</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">60,0</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">2,36</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Peso próprio da peça</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">25,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,98</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">20,0</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,79</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Desbalanceamento interno da peça</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">25,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,98</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">20,0</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,79</span></td>
+  </tr>
+  <tr>
+    <td width="253" valign="top" style="width: 189.7pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="left" style="text-align: left; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;&nbsp;&nbsp;&nbsp; Tensões residuais da peça</span></td>
+    <td width="66" valign="top" style="width: 49.6pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">&nbsp;</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">25,0</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,98</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">20,0</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">0,79</span></td>
+  </tr>
+  <tr>
+    <td width="319" colspan="2" valign="top" style="width: 239.3pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">Resultado do somatório quadrático em P-V</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">95,5</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">3,76</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">91,5</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">3,60</span></td>
+  </tr>
+  <tr>
+    <td width="319" colspan="2" valign="top" style="width: 239.3pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 2.25pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">Resultado do somatório quadrático em RMS</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 2.25pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">27,6</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 2.25pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">1,09</span></td>
+    <td width="76" valign="top" style="width: 56.7pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 2.25pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">26,4</span></td>
+    <td width="68" valign="top" style="width: 51.2pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 2.25pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0in; padding-bottom: 0in">
+    <p class="MsoBodyTextIndent2" align="right" style="text-align: right; text-indent: 0in; line-height: normal">
+    <span style="font-size: 10.0pt">1,04</span></td>
+  </tr>
+</table>
+<p class="MsoBodyTextIndent2">&nbsp;</p>
+<p class="MsoBodyTextIndent2">&nbsp;</p>
+<p class="MsoBodyTextIndent2">Este mapa de erros foi desenvolvido na fase de 
+projeto conceitual da máquina e não reflete os valores reais encontrados na 
+máquina atual, visto que vários sistemas e componentes foram substituídos. Por 
+exemplo, o mancal aerostático foi trocado por um hidrostático a óleo. Mas, mesmo 
+assim, dão uma idéia dos níveis de erros encontrados neste projeto. Com este 
+documento, é possível inferir sobre alterações na configuração da máquina, tendo 
+controle sobre a influência de cada componente alterado ou substituído.</p>
+<p class="MsoBodyTextIndent2">&nbsp;</p>
+<p class="MsoNormal" style="text-align: justify; text-indent: -.25in; margin-left: .5in">
+<u><b><a href="index.htm">VOLTAR </a></b></u><b><a href="index.htm">À PÁGINA 
+INICIAL</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<u><a href="principio_02.htm">VOLTAR</a></u></b></p>
+
+</body>
+
+</html>

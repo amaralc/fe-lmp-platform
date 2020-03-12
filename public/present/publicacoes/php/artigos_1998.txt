@@ -1,0 +1,96 @@
+SCHROETER, R. B., SOARES, S. R., TEIXEIRA, C. R., DIAS, A. M. P., GRÜTZMACHER, R. 
+Aspectos Ecológicos em Processos de Usinagem. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 177.
+SCHROETER, R. B., BERTOL, H. C. 
+Medição e Análise de Forças na Usinagem de Ultraprecisão de Cristais Infravermelhos. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 178.
+SCHROETER, R. B., ZEILMANN, R. P., BOEIRA, A. M. G. 
+Uma análise geral sobre a forma e o tipo de cavaco gerado na usinagem do aço SAE 1040. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 180.
+SCHROETER, R. B., ZEILMANN, R. P., PINTO, F. W. 
+Caracterização das forças de usinagem para o aço SAE 1040. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 182.
+SCHROETER, R. B., MÜHLE, H. B., ALBRECHT, G. C. 
+Tipos de Ajuste de Excentricidade de Cabeçotes de Mandrilamento. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 183.
+SCHROETER, R. B., ZEILMANN, R. P., MOCHIZUKI, S. 
+Uma análise geral sobre a forma e o tipo de cavaco gerado na usinagem do aço "free-cutting" DIN 9SMn28. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 186.
+WEINGAERTNER, W. L., ZEILMANN, R. P., VIEIRA, A. P. 
+Caracterização dos processos PVD e CVD: direcionados a revestimentos de ferramentas de corte com geometria definida. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 179.
+WEINGAERTNER, W. L., STOETERAU, R. L., PETRY, S. L., CÉSPEDES, E. S. R. 
+Atualização do Sistema de Medição de uma Retificadora Cilíndrica para uso em Processos de Microdressamentos. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 181.
+WEINGAERTNER, W. L., PETRY, S. L. L., STEIL NETO, J. 
+'Touch-Dressing' em Rebolos de CBN. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 184.
+WEINGAERTNER, W. L., REZENDE, M. B., SENA, L. 
+Análise de Usinabilidade dos Aços ABNT 1020 e VC 131 na Eletroerosão por Faísca. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 185.
+WEINGAERTNER, W. L., STOETERAU, R. L., FIRMINO, S. C. 
+Desenvolvimento de uma interface de comunicação para programação de tornos de ultraprecisão. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 187.
+WEINGAERTNER, W. L., ECKHARDT, M., MASSIRER Jr., E. 
+Análise comparativa das grandezas geradas na furação por escoamento de aços laminados a quente e a frio. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 188.
+WEINGAERTNER, W. L., ZEILMANN, R. P., FRANCO, R. P. 
+"Magnetron Sputtering": Descrição do Processo de Deposição de Filmes de TiN e Critérios de Avaliação de Ferramentas Revestidas. 
+VIII Simpósio de Iniciação Científica da Universidade de Santa Catarina, VIII SIC, novembro de 1998, Florianópolis/SC. Anais... p. 200.
+SCHROETER, R. B., ZEILMANN, R. P., MOCHIZUKI, S., VIEIRA C. G. 
+Análise das Forças de Usinagem para o Aço DIN 9SMN28 "Free Cutting" Empregando Ferramentas de Metal Duro. 
+VI Simpósio de Iniciação Científica da Universidade de São Paulo, XVI CICTE, novembro de 1998, São Carlos/SP, Vol. 2. Anais... p. 377.
+SCHROETER, R. B., ZEILMANN, R. P., HATORI, A. T., VERÍSSIMO, S. 
+Influência dos Parâmetros de Corte sobre a Qualidade Superficial na Usinagem do Aço SAE 1040. 
+VI Simpósio de Iniciação Científica da Universidade de São Paulo, XVI CICTE, novembro de 1998, São Carlos/SP, Vol. 2. Anais... p. 376.
+SCHROETER, R. B., ZEILMANN, R. P., PINTO, F. W., VICENTINI, F. A. 
+Influência da Máquina-ferramenta sobre a Qualidade Superficial na Usinagem do Aço SAE 1040. 
+VI Simpósio de Iniciação Científica da Universidade de São Paulo, XVI CICTE, novembro de 1998, São Carlos/SP, Vol. 2. Anais... p. 376.
+SCHROETER, R. B., ZEILMANN, R. P., PALHARES, G.F.B., BASTOS, C .M. 
+Análise da Rugosidade na Usinagem do Aço DIN 9SMn28 "Free-Cutting" com Ferramentas de Metal Duro. 
+VI Simpósio de Iniciação Científica da Universidade de São Paulo, XVI CICTE, novembro de 1998, São Carlos/SP, Vol. 2. Anais... p. 378.
+SCHROETER, R. B., BERTOL, H. C. 
+A Fabricação de Elementos Ópticos Transmissivos no Espectro Infravermelho através da Usinagem de Ultraprecisão. 
+VI Simpósio de Iniciação Científica da Universidade de São Paulo, XVI CICTE, novembro de 1998, São Carlos/SP, Vol. 2. Anais... p. 377.
+WEINGAERTNER, W. L., ECKHARDT, M., MASSIRER Jr., E. 
+Análise Comparativa das Grandezas Geradas na Furação por Escoamento. 
+VI Simpósio de Iniciação Científica da Universidade de São Paulo, XVI CICTE, novembro de 1998, São Carlos/SP, Vol. 2. Anais... p. 374.
+WEINGAERTNER, W. L., MÜHLE, H. B., ALBRECHT, G. C. 
+Mandrilamento com Cabeçote de Excentricidade Regulável. 
+VI Simpósio de Iniciação Científica da Universidade de São Paulo, XVI CICTE, novembro de 1998, São Carlos/SP, Vol. 2. Anais... p. 375.
+WEINGAERTNER, W. L., BERTALAN, C., MATTÉ, S. V. 
+Medição do Desgaste e Recuo de Quina de Rebolos Superabrasivos com a Utilização de Chapelonas. 
+VI Simpósio de Iniciação Científica da Universidade de São Paulo, XVI CICTE, novembro de 1998, São Carlos/SP, Vol. 2. Anais... p. 378.
+WEINGAERTNER, W. L., TEIXEIRA, C. R., DIAS, A. M. P., GRÜTZMACHER, R. 
+Aspectos Ecológicos em Processos de Usinagem. 
+VI Simpósio de Iniciação Científica da Universidade de São Paulo, XVI CICTE, novembro de 1998, São Carlos/SP, Vol. 2. Anais... p. 379.
+WEINGAERTNER, W. L., REZENDE, M. B., SENA, L. 
+Análise de Usinabilidade dos Aços ABNT 1020 e VC 131 na Eletroerosão por Faísca. 
+VI Simpósio de Iniciação Científica da Universidade de São Paulo, XVI CICTE, novembro de 1998, São Carlos/SP, Vol. 2. Anais... p. 380.
+WEINGAERTNER, W. L., JUSTUS, K. M., WEINGÄRTNER, E. 
+Desenvolvimento de um Equipamento de Furação Eletroquímica e Avaliação do Processo Visando a Medição de Tensões Residuais pelo Método do Furo Cego. 
+VI Simpósio de Iniciação Científica da Universidade de São Paulo, XVI CICTE, novembro de 1998, São Carlos/SP, Vol. 2. Anais... p. 380.
+WEINGAERTNER, W. L., PETRY, S. L. L., STEIL NETO, J. 
+Microdressamento de Rebolos de CBN - "Touch Dressing". 
+VI Simpósio de Iniciação Científica da Universidade de São Paulo, XVI CICTE, novembro de 1998, São Carlos/SP, Vol. 2. Anais... p. 381.
+WEINGAERTNER, W. L., OLIVEIRA, C. A. S., ECKHARDT, M., DUARTE FILHO, O. C. 
+Efeito das condições de trabalho da furação por escoamento sobre as características das buchas escoadas e nas propriedades de buchas roscadas. 
+1ª Conferência Nacional de Conformação de Chapas, volume 1, Ed. Lírio Schaeffer, Porto Alegre, 19 de outubro de 1998, p. 101–114.
+WEINGAERTNER, W. L., OLIVEIRA, C. A. S., ECKHARDT, M., DUARTE FILHO, O. C. 
+Efeito das condições de trabalho da furação por escoamento sobre as características de processo e microestrutura de buchas escoadas. 
+53º Congresso Anual da ABM, Belo Horizonte, 13 a 17 de setembro de 1998, não paginado.
+STOETERAU, R. L.; JESUS, G. A. R. de; WEINGAERTNER, W. L.; MARTIN, C. A. 
+Obtendo precisão submicrométrica em um posicionador de dois eixos. 
+II Simpósio Brasileiro de Engenharia Inercial, Rio de Janerio, Brasil, outubro de 1998.
+WEINGAERTNER, W. L., SCHROETER, R. B. 
+Mecânica de Precisão. 
+Inovar - Edição Especial Universidade-Indústria, Florianópolis, n. 12, setembro de 1998, p. 19–22.
+STOETERAU, R. L.; JESUS, G. A. R. de; WEINGAERTNER, W. L.; MARTIN, C. A. 
+Achieving  Submicrometric Precisionin A Two Axes, 
+ICMA, Finlâmdia, setembro de 1998.
+SCHROETER, R. B.; ZEILMANN, R. P.; VERÍSSIMO, S.; FRANCO R. P.. 
+Usinabilidade do Aço DIN 9SMn28 "Free-Cutting" com Ferramentas de Metal Duro. 
+V Congresso Nacional de Estudantes de Engenharia Mecânica (CREEM), 17 a 21 de agosto de 1998, Vitória ES.
+SCHROETER, R. B.; ZEILMANN, R. P.; BOEIRA, A G.; VIEIRA, A P.. 
+Ensaios de Usinabilidade do Aço SAE 1040 com Variação no Processo de Tratamento Térmico. 
+V Congresso Nacional de Estudantes de Engenharia Mecânica (CREEM), 17 a 21 de agosto de 1998, Vitória ES.

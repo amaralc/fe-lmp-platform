@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="pt-br">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>13</title>
+<style>
+<!--
+-->
+</style>
+<link href="estilo-texto.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#FFFFFF">
+<p><b>13 – Seleção de materiais</b></p>
+<p>A seleção de materiais pode envolver algumas das
+  decisões mais importantes tomadas no projeto de sistemas mecânicos de precisão.
+  Mesmo quando a escolha óbvia é o aço, por exemplo, há muito mais escolhas a
+  serem feitas com relação ao tipo de aço ou liga, forjado, fundido ou laminado,
+  o tipo de tratamento térmico e a dureza necessária, além dos processos de fabricação
+  e de tratamento de superfícies. </p>
+<p>O nível de informações vai desde as propriedades
+  físicas básicas ao conhecimento prático de ciência dos materiais. Essa descrição
+  vai se limitar a dar conhecimentos básicos, com a seleção de materiais através
+  de propriedades físicas que muitas vezes permitem a otimização do projeto.
+  A base das informações é o projeto de Ashby, 1992, que organizou os materiais
+  através de grupos de propriedades que são os principais requisitos de escolha
+  dos materiais nos projetos mecânicos. Os seus mapas de propriedades dos materiais
+  mostram claramente quais materiais satisfazem da melhor maneira os vários grupos
+  de propriedades. Chetwynd, 1987, desenvolveu um trabalho similar voltado para
+  aplicações de precisão. A abordagem proposta por ele consiste em planilhas
+  eletrônicas para obter máxima flexibilidade na criação e análise dos grupos
+  de propriedades.</p>
+<p>Os mapas de propriedades
+    de Ashby (1992) são um
+  meio efetivo de visualização das características de uma grande variedade de
+  materiais e classes de materiais. A figura 45 um dos mapas desenvolvidos.&nbsp; </p>
+<p align="center" style="text-align: center"> <img border="0" src="principio_13_arquivos/image001.jpg" width="648" height="616"></p>
+<p>Figura 45 – Mapa
+    do coeficiente de expansão térmica
+  comparada com a condutividade térmica, de Ashby, 1992.</p>
+<p>O conjunto de
+    todos os mapas abrange todas as propriedades úteis
+  para o projeto mecânico. As propriedades neste mapa em particular foram destacadas
+  no item deste capítulo que trata do gerenciamento térmico do projeto. As linhas
+  tracejadas que aparecem em cada carta são curvas de nível para um ou mais grupos
+  de propriedades. As linhas são retas porque as cartas estão numa escala log-log
+  e os grupos de propriedades sempre consistem em produtos e quocientes. Esse
+  conceito é um exemplo elegante de engenharia tradicional, mas não é muito conveniente
+  se as propriedades e grupos de interesse não aparecem no mesmo ou em qualquer
+  mapa. Isso leva à principal vantagem de uma abordagem computacional, sua flexibilidade.
+  As propriedades podem ser agrupadas se necessário e os grupos podem ser combinados
+  de modo a apresentarem uma melhor visualização para auxiliar no projeto. Assim,
+  as escolhas ficam óbvias, já que as principais propriedades ou grupos de propriedades
+  serão explicitados nos novos mapas produzidos. A tabela 7 apresenta o exemplo
+  de uma planilha gerada.</p>
+<p>Tabela 7 – Exemplo de planilha de propriedades
+  de materiais obtida no computador.</p>
+<p align="center" style="text-align: center"> <img border="0" src="principio_13_arquivos/image003.jpg" width="623" height="608"></p>
+<p>A idéia chave é o grupo de propriedades. Os mapas
+  de propriedades e as planilhas eletrônicas são somente meios de implementar
+  a idéia. Ashby usou uma abordagem de índice de performance para formular o
+  grupo de propriedades para um problema particular de projeto. Seu procedimento
+  foi o seguinte:</p>
+<p>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Identificar
+  a característica a ser maximizada ou minimizada (peso, custo, energia, rigidez,
+  tensão, segurança, etc.).</p>
+<p>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Desenvolver
+  uma equação para essa característica em termos de requisitos funcionais, geometria
+  e propriedades dos materiais (a função-objetivo).</p>
+<p>c)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Identificar
+  as variáveis livres (não especificadas).</p>
+<p>d)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Identificar
+  as restrições e classificá-las por ordem de importância.</p>
+<p>e)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Desenvolver
+  equações para as restrições (sem fratura, sem flambagem, máxima capacidade
+  térmica, custo abaixo do objetivo, etc).</p>
+<p>f)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Substituir
+  as variáveis livres pelas restrições na função-objetivo.</p>
+<p>g)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Agrupar
+  as variáveis em três grupos: requisitos funcionais, F, geometria, G, e propriedades
+  dos materiais, M. Assim: CARACTERÍSTICA &#8804; f(F,G,M)</p>
+<p>h)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Consultar
+  o índice de performance, expresso como uma quantidade M, a ser maximizada.</p>
+<p>i)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Uma
+  solução completa não é necessária para a identificação do grupo de propriedades
+  dos materiais.</p>
+<p>Ashby apresenta
+    vários estudos de caso onde a função-objetivo é tanto
+  separável, isto é, f=f<sub>1</sub>(F)f<sub>2</sub>(G)f<sub>3</sub>(M),
+  ou não separável. A seleção de material para um caso separável não depende
+  da geometria ou dos valores dos requisitos funcionais.</p>
+<p>As propriedades
+    mais importantes para a seleção
+  de materiais para máquinas-ferramenta são:</p>
+<ul>
+  <li> Habilidade
+    para equilibrar um estado de gradiente térmico, que é proporcional à relação
+    (condutividade térmica / coeficiente de expansão térmica);</li>
+  <li> Habilidade
+    para equilibrar os efeitos de um gradiente térmico, que é proporcional à difusividade
+    térmica. (Difusividade = condutividade / (coeficiente de expansão X densidade));</li>
+  <li> Resposta
+    do material aos carregamentos dinâmicos estáticos e dinâmicos, minimizados
+    por uma grande rigidez específica. (Rigidez específica = Módulo de elasticidade
+    / densidade);</li>
+  <li> Resposta
+    a excitações mecânicas transientes, que são minimizadas por uma grande capacidade
+    de amortecimento específico;</li>
+  <li> Deformação
+    em pontos de suporte dos carregamentos, determinada quase exclusivamente pelo
+    módulo de elasticidade;</li>
+  <li> Emissividade;</li>
+  <li> Usinabilidade;</li>
+  <li> Suscetibilidade à corrosão;
+    e</li>
+  <li> Custo.</li>
+</ul>
+<p style="text-align: justify;  "> <b><a style="text-decoration: none" href="principio_13_arquivos/biblio_13.htm">BIBLIOGRAFIA
+      RELACIONADA COM ESTE TÓPICO</a></b></p>
+<p style="text-align: justify;  "> <u><b><a href="index.htm">VOLTAR</a></b></u></p>
+</body>
+</html>

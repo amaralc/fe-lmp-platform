@@ -1,0 +1,173 @@
+img {
+border: 0px;
+}
+
+#conteudo {
+}
+
+.invisivel {
+display: none;
+}
+
+.mensagem {
+font-weight: bolder;
+text-align: center;
+font: 16px;
+}
+
+#titulo {
+font-size: 16px;
+text-align: right;
+}
+
+#tabela {
+background: #bbbbbb;
+margin-left:auto; margin-right:auto;
+}
+
+.linha1 {
+border: 0px;
+background: #dfdfdf;
+}
+.linha2 {
+border: 0px;
+background: #ebebeb;
+}
+.linha_marcada {
+background: #F8FFC7;
+}
+
+#tabela .destaque {
+font-size: 16px;
+font-weight: bold;
+}
+
+#tabela .normal {
+}
+
+.destaque_preco {
+color: red;
+}
+
+.sel_box {
+text-align: center;
+width: 10px;
+}
+
+#rodape {
+width: 100%;
+text-align: center;
+}
+
+a:link {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #A97E01;
+        text-decoration: none;
+        font-style: normal;
+
+
+}
+a:visited {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #A97E01;
+        text-decoration: none;
+        font-style: normal;
+
+}
+a:hover {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #A97E01;
+        text-decoration: underline;
+        font-style: normal;
+
+
+}
+a:active {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #A97E01;
+        text-decoration: none;
+        font-style: normal;
+}
+p {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #05376C;
+        text-indent: 30pt;
+        text-align: justify;
+
+
+}
+h4 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #05376C;
+}
+body {
+        background-image: url(logo_fundo.jpg);
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #FFFFFF;
+
+        }
+li {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #05376C;
+}
+.atualizacao {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #05376C;
+}
+.contato {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #05376C;
+}
+.texto {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #05376C;
+        text-indent: 0pt;
+
+}
+
+
+#tabela .titulo {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: #FFFFFF;
+        background-color: #05376C;
+
+}
+.legendaFigura {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #05376C;
+        text-align: center;
+
+
+
+}
+
+.botao {
+	margin: 10px;
+	border-color: #A97E01;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #FFFFFF;
+        background-color: #05376C;
+}

@@ -1,0 +1,164 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv="Content-Language" content="pt-br">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="File-List" href="regra_12_arquivos/filelist.xml">
+<title>Regra 12</title>
+<style>
+<!--
+-->
+</style>
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+<link href="../estilo-texto.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<p style="text-indent: 1.4pt; margin-left: 21.3pt">
+  <b>Regra 12:</b> <i> Quando os componentes
+  são conectados em série (cascata), há a adição dos graus 
+de liberdade. Quando os componentes são conectados em paralelo, há a adição de 
+restrições. </i></p>
+<p style="text-indent: 1.4pt; margin-left: 21.3pt">&nbsp;</p>
+<p>Podem ser utilizados
+    dois princípios familiares 
+para explicar a regra 12. </p>
+<p>Princípio 1: <i>A deformação equivalente de molas 
+montadas em série é a soma das suas deformações individuais</i>. </p>
+<p>Princípio 2: <i>A rigidez equivalente de molas 
+montadas em paralelo é a soma da rigidez individual de cada uma</i>. </p>
+<p>Estes princípios podem ser aplicados tanto para 
+molas com um grau de liberdade, quanto outras estruturas e molas de quaisquer 
+dimensões, onde a constante de mola torna-se uma matriz simétrica. Devemos 
+considerar um grau de liberdade como sendo um termo dominante na matriz de 
+deslocamento, já que sua origem é a elasticidade de uma placa flexível ou o 
+movimento de um mancal. Similarmente, deve-se considerar uma restrição como 
+sendo um termo dominante na matriz de rigidez. O fundamento para a regra 12 é 
+que os termos dominantes em matrizes individuais permanecem dominantes no 
+processo de adição. Conseqüentemente, os graus de liberdade dominam os processos 
+de combinação em série enquanto as restrições dominam os processo de combinação 
+em paralelo. Isso expõe uma sutileza não aparente na regra 12, que é como lidar 
+com graus de liberdade e restrições redundantes. Esses pontos serão 
+exemplificados a seguir, primeiro numa combinação em série e em seguida numa 
+combinação em paralelo.</p>
+<p>&nbsp;</p>
+<p>A figura 40(a)
+    mostra uma combinação em série de 
+duas placas que ocupam uma linha de restrição comum. Uma má interpretação da 
+regra 12 levaria à conclusão de que essa série de placas, cada qual com três 
+graus de liberdade, se combinaria formando um total de seis graus de liberdade, 
+sem restrições. O deslocamento axial combinado ao longo da linha de restrição 
+permanece algumas ordens de grandeza mais rígido do que nas outras direções, 
+então ainda é uma restrição. Da mesma forma, as placas ocupam um eixo rotacional 
+comum que resulta num grau de liberdade redundante. A combinação deve ter duas 
+vezes o deslocamento, mas funcionalmente continua sendo um único grau de 
+liberdade. Nas direções restantes a regra 12 é aplicada sem confusão já que os 
+quatro graus de liberdade combinam com as quatro restrições. Assim, a combinação 
+em série de duas placas de flexão fornece três graus de liberdade rotacionais 
+diferentes e uma restrição axial.</p>
+<p>&nbsp;</p>
+<p>A figura 40(b)
+    mostra um elemento flexível mais 
+elaborado, que possui combinações em série e em paralelo de placas. Essa 
+configuração é vazada para prevenir o aparecimento de um circuito fechado entre 
+os graus de liberdade desejados. Sua simetria leva a restrições redundantes. O 
+componente poderia funcionar da mesma forma sem as restrições redundantes, mas 
+sacrificaria a sua rigidez ao longo da sua linha de restrição. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center" style="text-align: center">
+  <!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1025" type="#_x0000_t75" style='width:536.25pt;
+ height:140.25pt'>
+ <v:imagedata src="regra_12_arquivos/image001.jpg" o:title="figura%20025"/>
+</v:shape><![endif]-->
+  <![if !vml]>
+  <img border=0 width=715 height=187
+src="regra_12_arquivos/image002.jpg" v:shapes="_x0000_s1025">
+  <![endif]>
+</p>
+<p>Figura 40 – Elementos
+flexíveis.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Resumindo, a maneira
+    correta de interpretar a
+regra 12 exige a consciência sobre as direções envolvidas. Para uma combinação 
+de elementos em série, os graus de liberdade combinados irão amarrar a união de 
+espaços dimensionais amarrados pelos graus de liberdade das partes individuais; 
+enquanto, as restrições combinadas vão amarrar a intersecção dos espaços 
+amarrados pelas restrições das partes individuais. Para uma combinação de 
+elementos em paralelo, as restrições combinadas vão amarrar a união dos espaços 
+dimensionais amarrados pelas restrições das partes individuais; enquanto os 
+graus de liberdade combinados irão amarrar a intersecção de espaços amarrados
+pelos graus de liberdade das partes individuais. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>As doze regras
+    de Blanding são importantes para 
+entender e referenciar quando for a hora de projetar um sistema ou mecanismo 
+restrito. Em muitos casos é possível iniciar com um projeto básico, como com um 
+dos acoplamentos cinemáticos convencionais, mas como a figura 41 mostra, alguns 
+casos podem ser produzidos a partir da tabela de restrições ortogonais da figura 
+38, associado com um conhecimento básico de elementos de restrição, como esferas 
+encaixadas em ranhuras em V. Leve em consideração que restrições e eixos de 
+intersecção ortogonais são simplificações artificiais utilizadas para produzir 
+uma tabela simples e concisa. Em 41(a), uma esfera montada num assento 
+tetraédrico fornece três restrições; Uma esfera num V fornece duas restrições; e 
+uma esfera num plano fornece a restrição restante. Em 41(b), três esferas, cada 
+qual num V fornecem duas restrições. Em 41(c), três cilindros, cada qual num 
+plano, fornecem duas restrições.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center" style="text-align: center">  <img border=0 width=627 height=207
+src="regra_12_arquivos/image004.jpg" v:shapes="_x0000_s1026"></p>
+<p>Figura 41 – Restrições de acoplamentos cinemáticos
+tradicionais.</p>
+<p>&nbsp;</p>
+<p>Um conceito chave
+    no projeto por restrições exatas 
+é a relação entre as restrições aplicadas e os graus de liberdades restringidos 
+um a um. Restrições redundantes podem ser adicionadas para aumentar a rigidez. 
+Como conclusão pode-se dizer que o melhor projeto pode não ser aquele que 
+possuir restrições exatas, mas deve ser iniciado dessa forma, de modo que a 
+super-restrição seja totalmente considerada e prevista.</p>
+<p>&nbsp;</p>
+<p style="text-indent: 21.3pt"><b>
+<a href="regra_11.htm">REGRA 11 </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b></p>
+<p style="text-align: justify; text-indent: -.25in; margin-left: .5in">
+  <u><b><a href="../principio_11.htm">VOLTAR&nbsp;&nbsp; </a></b></u></p>
+
+</body>
+
+</html>
