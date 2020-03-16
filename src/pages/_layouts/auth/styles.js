@@ -15,6 +15,7 @@ export const Content = styled.div`
   width: 100%;
   max-width: 315px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 
   form {
     display: flex;
@@ -33,6 +34,14 @@ export const Content = styled.div`
       &::placeholder {
         color: rgba(255, 255, 255, 0.7);
       }
+    }
+
+    span {
+      color: #f64c70;
+      align-self: flex-start;
+      margin: 0 0 10px;
+      /*font-weight: bold; */
+      font-size: 14px;
     }
 
     button {
@@ -56,7 +65,7 @@ export const Content = styled.div`
       margin-top: 15px;
       font-size: 16px;
       opacity: 0.8;
-      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
 
       &:hover {
         opacity: 1;
