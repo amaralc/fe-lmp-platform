@@ -6,6 +6,7 @@ import { Route, Redirect } from 'react-router-dom';
 import AuthLayout from '~/pages/_layouts/auth';
 import DefaultLayout from '~/pages/_layouts/default';
 /* --------------------------------- CONTENT ---------------------------------*/
+/* Define rotas de acordo com o estado do usuário (signed) */
 export default function RouteWrapper({
   component: Component,
   isPrivate,
@@ -20,6 +21,7 @@ export default function RouteWrapper({
   if (signed && !isPrivate) {
     return <Redirect to="/dashboard" />;
   }
+  /* define o tipo de layout da página de acordo com o estado do usuário */
   const Layout = signed ? DefaultLayout : AuthLayout;
 
   return (
@@ -34,6 +36,7 @@ export default function RouteWrapper({
   );
 }
 
+/* Define PropTypes */
 RouteWrapper.propTypes = {
   isPrivate: PropTypes.bool,
   component: PropTypes.oneOfType([PropTypes.element, PropTypes.func])
