@@ -1,5 +1,5 @@
 /* --------------------------------- IMPORTS ---------------------------------*/
-import { all } from 'redux-saga';
+import { all } from 'redux-saga/effects';
 
 /* --------------------------------- EXPORTS ---------------------------------*/
 export default all([]);
