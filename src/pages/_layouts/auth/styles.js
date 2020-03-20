@@ -17,7 +17,7 @@ export const Content = styled.div`
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 
-  form {p
+  form {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
